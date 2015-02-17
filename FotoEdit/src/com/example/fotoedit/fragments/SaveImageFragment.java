@@ -142,7 +142,7 @@ public class SaveImageFragment extends Fragment {
 						createIntent("com.instagram.android",
 								"file:///mnt/sdcard/"
 										+ Constants.FOLDER_PROGRAM
-										+ "/image.jpg", "Foto to Multi Expo");
+										+ "/image.jpg", "Foto to Foto Edit");
 					} else {
 						Toast toast = Toast.makeText(getActivity()
 								.getApplicationContext(),
@@ -178,7 +178,7 @@ public class SaveImageFragment extends Fragment {
 						createIntent("com.twitter.android",
 								"file:///mnt/sdcard/"
 										+ Constants.FOLDER_PROGRAM
-										+ "/image.jpg", "Foto to Multi Expo");
+										+ "/image.jpg", "Foto to Foto Edit");
 					} else {
 						Toast toast = Toast.makeText(getActivity()
 								.getApplicationContext(),

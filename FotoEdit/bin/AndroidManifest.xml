@@ -23,7 +23,7 @@
         android:theme="@style/AppTheme"
         android:largeHeap="true" >
         <activity
-            android:name="com.example.multiexpo.MainActivity"
+            android:name="com.example.fotoedit.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>

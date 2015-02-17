@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2" >
+    
+    <ImageView
+        android:id="@+id/nextSave"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/next"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/savegaler"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/savegaler" />
+
+<ImageView
+        android:id="@+id/saveinstagram"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/saveinstagram" />
+
+<ImageView
+        android:id="@+id/savemail"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/savemail" />
+
+<ImageView
+        android:id="@+id/savetwit"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/savetwitter" />
+
+</FrameLayout>

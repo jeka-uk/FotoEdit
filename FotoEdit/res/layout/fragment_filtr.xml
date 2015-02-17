@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/background_2" >
+
+    <ImageView
+        android:id="@+id/nextfiltr"
+        android:layout_width="@dimen/imageView_next_layout_width"
+        android:layout_height="@dimen/imageView_next_layout_height"
+        android:layout_marginLeft="@dimen/imageView_next_marginLeft"
+        android:layout_marginTop="@dimen/imageView_next_marginTop"
+        android:src="@drawable/next"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="@dimen/image_edit_ramka_image_layout_width"
+        android:layout_height="@dimen/image_edit_ramka_image_layout_height"
+        android:layout_marginLeft="@dimen/image_edit_ramka_image_marginLeft"
+        android:layout_marginTop="@dimen/image_edit_ramka_image_marginTop"
+        android:src="@drawable/ramka" />
+
+    <ImageView
+        android:id="@+id/imageeditcolorfiltrLeft"
+        android:layout_width="@dimen/imageedit_layout_width"
+        android:layout_height="@dimen/imageedit_layout_height"
+        android:layout_marginLeft="@dimen/imageedit_marginLeft"
+        android:layout_marginTop="@dimen/imageedit_marginTop"
+        android:background="#000000" />
+    
+   
+    
+     <ImageView
+        android:id="@+id/ramkagrey"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="490dp"
+        android:src="@drawable/ramka"/>
+    
+    <ImageView
+        android:id="@+id/imagefiltrgrey"
+        android:layout_width="70dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="500dp"
+        android:background="#000000" />
+    
+    <ImageView
+        android:id="@+id/ramkared"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="490dp"
+        android:src="@drawable/ramka"/>
+    
+    <ImageView
+        android:id="@+id/imagefiltrred"
+        android:layout_width="70dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="500dp"
+        android:background="#000000"/>
+    
+    <ImageView
+        android:id="@+id/ramkagreen"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="490dp"
+        android:src="@drawable/ramka" />
+    
+    
+    <ImageView
+        android:id="@+id/imagefiltrgreen"
+        android:layout_width="70dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="500dp"
+        android:background="#000000"/>
+    
+     <ImageView
+        android:id="@+id/ramkayellow"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="490dp"
+        android:src="@drawable/ramka"/>
+    
+    <ImageView
+        android:id="@+id/imagefiltryellow"
+        android:layout_width="70dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="500dp"
+        android:background="#000000" />
+
+</FrameLayout>

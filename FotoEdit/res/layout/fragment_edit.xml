@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <ImageView
+        android:id="@+id/nextedit"
+        android:layout_width="@dimen/imageView_next_layout_width"
+        android:layout_height="@dimen/imageView_next_layout_height"
+        android:layout_marginLeft="@dimen/imageView_next_marginLeft"
+        android:layout_marginTop="@dimen/imageView_next_marginTop"
+        android:src="@drawable/next"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="@dimen/image_edit_ramka_image_layout_width"
+        android:layout_height="@dimen/image_edit_ramka_image_layout_height"
+        android:layout_marginLeft="@dimen/image_edit_ramka_image_marginLeft"
+        android:layout_marginTop="@dimen/image_edit_ramka_image_marginTop"
+        android:src="@drawable/ramka" />
+
+    <ImageView
+        android:id="@+id/imageedit"
+        android:layout_width="@dimen/imageedit_layout_width"
+        android:layout_height="@dimen/imageedit_layout_height"
+        android:layout_marginLeft="@dimen/imageedit_marginLeft"
+        android:layout_marginTop="@dimen/imageedit_marginTop"
+        android:background="#000000" />
+
+    <ImageView
+        android:id="@+id/imagemainedittoplayer"
+        android:layout_width="@dimen/imageedit_layout_width"
+        android:layout_height="@dimen/imageedit_layout_height"
+        android:layout_marginLeft="@dimen/imageedit_marginLeft"
+        android:layout_marginTop="@dimen/imageedit_marginTop" />
+
+    <ImageView
+        android:id="@+id/rotate"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/rotate"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ramkaRightButtom"
+        android:layout_width="@dimen/image_2_ramka_layout_width"
+        android:layout_height="@dimen/image_2_ramka_layout_height"
+        android:layout_marginLeft="@dimen/image_2_ramka_image_marginLeft"
+        android:layout_marginTop="@dimen/image_2_ramka_image_marginTop"
+        android:src="@drawable/ramka"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/croppimageridht"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/cropp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/rotateimageright"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/rotate"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imagbuttomright"
+        android:layout_width="@dimen/imagbuttomright_layout_width"
+        android:layout_height="@dimen/imagbuttomright_layout_height"
+        android:layout_marginLeft="@dimen/imagbuttomright_marginLeft"
+        android:layout_marginTop="@dimen/imagbuttomright_marginTop"
+        android:background="#000000"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/cropp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/cropp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ramkaLeftButtom"
+        android:layout_width="@dimen/image_1_ramka_layout_width"
+        android:layout_height="@dimen/image_1_ramka_layout_height"
+        android:layout_marginLeft="@dimen/image_1_ramka_image_marginLeft"
+        android:layout_marginTop="@dimen/image_1_ramka_image_marginTop"
+        android:src="@drawable/ramka"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imagbuttomleft"
+        android:layout_width="@dimen/imagbuttomleft_layout_width"
+        android:layout_height="@dimen/imagbuttomleft_layout_height"
+        android:layout_marginLeft="@dimen/imagbuttomleft_marginLeft"
+        android:layout_marginTop="@dimen/imagbuttomleft_marginTop"
+        android:background="#000000"
+        android:visibility="visible" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:max="255"
+        android:progress="100" />
+    
+    
+
+</FrameLayout>
